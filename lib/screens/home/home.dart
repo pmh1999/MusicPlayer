@@ -126,13 +126,7 @@ class NowPLayingWidget extends StatelessWidget {
       required this.onStop,
       required this.isPause});
 
-  Stream<int> getSecondsFromCurrentMinute() async* {
-    // final now = DateTime.now();
-    // final seconds = now.second;
-    // yield seconds;
-    // await Future.delayed(Duration(seconds: 1 - seconds));
-    // yield* getSecondsFromCurrentMinute();
-  }
+
 
   @override
   Widget build(BuildContext context) {
@@ -178,12 +172,7 @@ class NowPLayingWidget extends StatelessWidget {
               ],
             ),
           ),
-          StreamBuilder<int>(
-              stream: getSecondsFromCurrentMinute(),
-              builder: (context, AsyncSnapshot<int> snapshot) {
-                double percentageOfSecond = (snapshot.data ?? 0) / 60;
-
-                return Center(
+          Center(
                   child: GestureDetector(
                     onTap: () {
                       onPause.call();
@@ -196,8 +185,7 @@ class NowPLayingWidget extends StatelessWidget {
                       size: 30.0,
                     ),
                   ),
-                );
-              }),
+               ),
 
           SizedBox(width: 8),
 
