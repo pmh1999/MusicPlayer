@@ -1,16 +1,25 @@
-# musicplayer
+## MusicPlayer ⌒
+install app-release.apk
+<br/>
+<br/>
 
-A new Flutter project.
+## Previews ⛶
 
-## Getting Started
+<img src="screenshot/ss1.jpg" alt="screenshots"  height="400" width="180"> <img src="screenshot/ss1.jpg" alt="screenshots" height="400" width="180"> 
 
-This project is a starting point for a Flutter application.
+<img src="screenshot/ss3.jpg" alt="screenshots" height="400" width="180"> <img src="screenshot/ss2.jpg" alt="screenshots" height="400" width="180"> 
 
-A few resources to get you started if this is your first Flutter project:
+<img src="screenshot/ss5.jpg" alt="screenshots" height="400" width="180"> <img src="screenshot/ss3.jpg" alt="screenshots" height="400" width="180"> 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## Feature roadmap ⌲
+- [x]  Allows users to view the list of songs on zingchart https://m.zingmp3.vn/zing-chart.
+- [x]  Each song in the list will show: song title, artist name and album cover.
+- [x]  When a song is selected, it will start playing.
+- [x]  There is a progress bar that shows the currently playing song, along with the song title, artist name, and album art.
+- [x]  There are play, pause and stop buttons to control.
+- [x]  There is a search bar to filter songs by title or artist name.
+- [x]  Play music in the background so that it continues to play even when the screen is off or another application is open.
+- [x]  Get music from the website automatically (not manually).
+- [x]  Simple code, not applying clean code (Robert C. Martin style).
