@@ -5,11 +5,11 @@ install app-release.apk
 
 ## Previews ⛶
 
-<img src="screenshot/ss1.jpg" alt="screenshots"  height="400" width="180"> <img src="screenshot/ss1.jpg" alt="screenshots" height="400" width="180"> 
+<img src="ss1.jpg" alt="screenshots" height="400" width="180"> 
 
-<img src="screenshot/ss3.jpg" alt="screenshots" height="400" width="180"> <img src="screenshot/ss2.jpg" alt="screenshots" height="400" width="180"> 
+<img src="ss2.jpg" alt="screenshots" height="400" width="180"> 
 
-<img src="screenshot/ss5.jpg" alt="screenshots" height="400" width="180"> <img src="screenshot/ss3.jpg" alt="screenshots" height="400" width="180"> 
+<img src="ss3.jpg" alt="screenshots" height="400" width="180"> 
 
 
 
